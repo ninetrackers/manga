@@ -3,7 +3,7 @@ c:
   - "latest"
 
 script:
-  - wget -q https://github.com/fabianonline/telegram.sh/raw/master/telegram && chmod +x telegram
+  - wget -q https://github.com/yshalsager/telegram.sh/raw/master/telegram && chmod +x telegram
   - chmod +x *.sh
   - ./script.sh 
 
