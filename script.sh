@@ -62,4 +62,4 @@ done
 #Push
 git config --global user.email "builds@travis-ci.com" && git config --global user.name "Travis CI"
 git add manga_db; git commit -m "Sync: $(date +%d.%m.%Y-%R)"
-git push -q https://$GIT_OAUTH_TOKEN@github.com/yshalsager/manga-tracker.git HEAD:gmanga
+git push -q https://$GIT_OAUTH_TOKEN@github.com/ninetrackers/manga.git HEAD:gmanga
